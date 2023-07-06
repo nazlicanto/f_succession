@@ -1,34 +1,24 @@
-# World of Warcraft Character Data Analysis README
+# Profanity Use in “Succession” Finale
 
-The project aims to analyze a dataset of World of Warcraft characters. 
-
-The dataset contains data about the character's attributes such as their race, class, level, zone, guild, and the time when the data was collected.
-
-### The dataset consists of the following columns:
-	char: unique character identifier.
-	level: current level of the character.
-	race: character’s selected race.
-	charclass: character’s class.
-	zone: current location in which the character resides.
-	guild: unique guild identifier.
-	timestamp: date and time when the data was collected.
- 
-## Analysis and Visualizations
-Below are the key analysis and visualizations we performed on the dataset:
-
-Unique column value count: A count of unique values in each column of the dataset was calculated to understand the diversity of the dataset.
-Max Level Achievement: Analyzed where 38000 characters reached as a maximum level to understand the level distribution among the dataset.
-Feature Distribution: The main  function wowdf_feature(feature) was created to identify the distribution of a selected feature. The function groups the data by character and selects the maximum value of the chosen feature.
-Level Interval Distribution: Using the wowdf_feature(feature) function, identified how many characters reached certain level intervals when the 80 levels were divided into 8 parts.
-Race and Class Distribution: Count of characters in each race and class was calculated to understand the popular races and classes among the dataset.
-Race & Class Combination: A combined analysis of race and class was performed to identify the most popular combinations among the characters. Both counts and percentages were calculated.
-Daily Activity: Tracked the daily playing activity among the level intervals through the year and displayed it in a line plot.
-Hourly Activity (Strip Plot): Tracked the hourly playing activity among the level intervals throughout the year and displayed it in a strip plot.
-Hourly Activity (Stacked Bar Plot): To provide another perspective, the hourly playing activity among the level intervals was also displayed in a stacked bar
-
-## Clustering
-### K-Means Clustering
-The K-Means algorithm is used to cluster the characters. The required number of clusters is determined using the Elbow Method.
-
-### Cluster Analysis: 
-Each cluster is analyzed to understand its characteristics/profile. 
+KENDALL said "fuck" 54 times.
+SHIV said "fuck" 45 times.
+CAROLINE said "fuck" 6 times.
+LUKAS said "fuck" 8 times.
+HUGO said "fuck" 1 times.
+ROMAN said "fuck" 30 times.
+TOM said "fuck" 21 times.
+WAITER said "fuck" 0 times.
+OSKAR said "fuck" 0 times.
+PETER said "fuck" 0 times.
+GREG said "fuck" 2 times.
+TELLIS said "fuck" 5 times.
+CONNOR said "fuck" 0 times.
+WILLA said "fuck" 0 times.
+LOGAN said "fuck" 0 times.
+FRANK said "fuck" 7 times.
+GERRI said "fuck" 0 times.
+STEWY said "fuck" 1 times.
+DEWI SWANN said "fuck" 0 times.
+BOARD MEMBERS said "fuck" 0 times.
+SANDI FURNESS said "fuck" 0 times.
+KARL said "fuck" 1 times.
